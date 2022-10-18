@@ -60,6 +60,9 @@ main {
     width: 100%;
     padding: 2rem 3.5rem;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-section  div img {
@@ -72,6 +75,7 @@ main {
     margin: 2rem 0;
     line-height: 25px;
     opacity: 0.75;
+    flex-grow: 1;
 }
 
 .main-section > div:nth-child(1) {
